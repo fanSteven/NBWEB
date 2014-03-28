@@ -1,0 +1,41 @@
+﻿<html>
+<head>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/register.js"></script>
+    <script type="text/javascript" src="js/locate.js"></script>
+    <script type="text/javascript" src="js/kendo.web.min.js"></script>
+    <link href="css/register.css" rel="stylesheet" />
+    <link href="css/nb.css" rel="stylesheet" /> 
+	<link href="css/kendo.common.min.css" rel="stylesheet" />
+    <link href="css/common.css" rel="stylesheet"/>
+    <title></title>
+</head>
+<body>
+    <div class="reg-login-switch">
+        <a id="to_login" onclick="to_login();"></a>
+    </div>
+    <div class="inputWrap">
+        <div>
+            <label for="user_name" class="lab">
+                用户名：</label>
+            <input id="user_name" class="sample_input" />
+        </div>
+		<div>
+            <label for="user_email">
+                邮 箱：</label>
+            <input id="user_email" class="sample_input" />
+        </div>
+        <div>
+            <label for="user_name">
+                密 码：</label>
+            <input id="Pasword" type="password" class="sample_input" />
+        </div>
+        <div style="margin-left: 8%; margin-top: 30px;">
+            <button class="k-button" id="btn_register">
+                提交</button>
+            <button class="k-button" style="margin-left: 200px;">
+                重置</button>
+        </div>
+    </div>
+</body>
+</html>
