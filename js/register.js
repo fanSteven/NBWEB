@@ -11,7 +11,7 @@
         var dataSource = new kendo.data.DataSource({
             transport:{
                 create:{
-                    url : "http://localhost:8080/NB/users",
+                    url : "http://localhost:8080/NBServer/users",
                     type : "POST",
                     contentType : "application/json; charset=UTF-8",
                     dataType : "json",
