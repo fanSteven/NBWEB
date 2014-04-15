@@ -1,0 +1,72 @@
+ul li {
+    list-style: none;
+}
+.nb_block  .user_info{
+    vertical-align: middle;
+    padding-left: 20px;
+    padding-top: 7px;
+    padding-bottom: 0px;
+    color: #B6B6B6;
+    height: 38px;
+    background-color: #F5F5F5;
+}
+.nb_block .content{
+    height: auto;
+    overflow: hidden;
+    border-bottom: solid 0px #b2b2b2;
+    padding: 20px 20px;
+    margin: 0 auto;
+    padding-bottom: 0px;
+}
+.nb_block .content .text_content{
+    font-size: 14px;
+    color: #252525;
+    line-height: 20px;
+}
+.p_img_content{
+    margin-top: 20px;
+}
+.content_wrapper{
+    clear: both;
+    margin-bottom: -3px;
+}
+div, p, form, ul, li, input, h1, h2, h3, h4, h5, dl, dd, dt {
+    margin: 0;
+    padding: 0;
+}
+.nb_block  .user_info li{
+    float: left;
+}
+
+.floatl{
+    float: left;
+}
+.clear {
+    clear: both;
+}
+img {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nb_block  .user_info li.user_name p{
+    color: #777777;
+    height: 18px;
+    margin-top: 6px;
+    margin-left: 12px;
+    margin-right: 5px;
+}
+.nb_block  .user_info img{
+    width: 30px;
+    height: 30px;
+}
+.nb_block  .user_info .public_info{
+    margin-top: 6px;
+    height: 18px;
+    color: #b5b5b5;
+}

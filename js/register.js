@@ -11,7 +11,7 @@
         var dataSource = new kendo.data.DataSource({
             transport:{
                 create:{
-                    url : "http://localhost:8080/NBServer/users",
+                    url : "http://localhost:8080/NBServer/service/users",
                     type : "POST",
                     contentType : "application/json; charset=UTF-8",
                     dataType : "json",
@@ -21,7 +21,13 @@
                         "password":password
                     },
                     success:function(result){
-                        alert(123);
+                        if(result.id == "1"){
+                            alert("请到注册邮箱中激活");
+                            to_activity();
+                        }
+                        else{
+                            alert(result.log);
+                        }
                     }
                 },
                 parameterMap : function(options, operation) {
@@ -36,6 +42,10 @@
     })
 
 })
+
+function to_activity(){
+    window.location.href="to_activity";
+}
 
 function to_login() {
     window.location.href = "login.html";
